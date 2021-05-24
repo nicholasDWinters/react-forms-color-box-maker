@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Box = ({ width, height, bgColor, removeBox, id }) => {
+const Box = ({ width = 200, height = 200, bgColor = 'blue', removeBox, id }) => {
     const styles = {
         height: `${height}px`,
         width: `${width}px`,
